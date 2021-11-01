@@ -7,6 +7,7 @@ def gameplay(q_function_path, player_symbol='O', starting_symbol='X'):
     """
     Runs the game
     ATENTION! Player symbol must only be 'O', becouse AI was trained while beeing an 'X'
+    TODO change this restriction
     """
     quality_function = np.load(q_function_path)
 

@@ -11,7 +11,6 @@ class TicTacToeEnv(gym.Env):
 
   SIZE = 3
 
-  metadata = {'render.modes': ['console']}
   nums = {'.': 0, 'X': 1, 'O': 2}
   symbols = {0: '.', 1: 'X', 2: 'O'}
 
